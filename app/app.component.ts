@@ -39,14 +39,16 @@ export class AppComponent {
         xAxes: [
           {
             gridLines: {
-              color: "rgba(0, 0, 0, 0)"
+             // color: "rgba(0, 0, 0, 0)"
+             display: false
             }
           }
         ],
         yAxes: [
           {
             gridLines: {
-              color: "rgba(0, 0,0 ,0 )"
+             // color: "rgba(0, 0,0 ,0 )"
+             display: false
             }
           }
         ]
