@@ -23,7 +23,7 @@ export class AppComponent {
     this.chartData = [
       {
         data: [3, 1, 4, 2, 5],
-       label: "Anthracnose",
+     ///  label: "Anthracnose",
         fill: false
       }
     ];
@@ -56,35 +56,7 @@ export class AppComponent {
           }
         ]
       },
-      annotation: {
-        drawTime: "beforeDatasetsDraw",
-        annotations: [
-          {
-            type: "box",
-            id: "a-box-1",
-            yScaleID: "y-axis-0",
-            yMin: 0,
-            yMax: 1,
-            backgroundColor: "#4cf03b"
-          },
-          {
-            type: "box",
-            id: "a-box-2",
-            yScaleID: "y-axis-0",
-            yMin: 1,
-            yMax: 2.7,
-            backgroundColor: "#fefe32"
-          },
-          {
-            type: "box",
-            id: "a-box-3",
-            yScaleID: "y-axis-0",
-            yMin: 2.7,
-            yMax: 5,
-            backgroundColor: "#fe3232"
-          }
-        ]
-      }
+      
     };
   }
 }
