@@ -23,7 +23,7 @@ export class AppComponent {
     this.chartData = [
       {
         data: [3, 1, 4, 2, 5],
-        label: "Anthracnose",
+       label: "Anthracnose",
         fill: false
       }
     ];
@@ -35,20 +35,23 @@ export class AppComponent {
       }
     ];
     this.chartOptions = {
+      legend: {
+        display: false
+      },
       scales: {
         xAxes: [
           {
             gridLines: {
-             // color: "rgba(0, 0, 0, 0)"
-             display: false
+              // color: "rgba(0, 0, 0, 0)"
+              display: false
             }
           }
         ],
         yAxes: [
           {
             gridLines: {
-             // color: "rgba(0, 0,0 ,0 )"
-             display: false
+              // color: "rgba(0, 0,0 ,0 )"
+              display: false
             }
           }
         ]
