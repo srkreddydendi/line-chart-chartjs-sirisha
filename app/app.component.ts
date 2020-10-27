@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef } from "@angular/core";
-import "chartjs-plugin-annotation";
+//import "chartjs-plugin-annotation";
 
 //declare const $: any;
 
