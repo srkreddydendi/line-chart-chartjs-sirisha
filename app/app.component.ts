@@ -23,8 +23,10 @@ export class AppComponent {
     this.chartData = [
       {
         data: [3, 1, 4, 2, 5],
-     ///  label: "Anthracnose",
-        fill: false
+        ///  label: "Anthracnose",
+        fill: false,
+        //bezierCurve: false,
+        lineTension: 0
       }
     ];
     this.chartLabels = ["Jan", "Feb", "Mar", "Apr", "May"];
@@ -35,6 +37,8 @@ export class AppComponent {
       }
     ];
     this.chartOptions = {
+      //bezierCurve: false,
+      //lineTension: 0,
       legend: {
         display: false
       },
@@ -55,8 +59,7 @@ export class AppComponent {
             }
           }
         ]
-      },
-      
+      }
     };
   }
 }
