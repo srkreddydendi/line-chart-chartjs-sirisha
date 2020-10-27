@@ -26,7 +26,8 @@ export class AppComponent {
         ///  label: "Anthracnose",
         fill: false,
         //bezierCurve: false,
-        lineTension: 0
+        lineTension: 0,
+        pointRadius: 0
       }
     ];
     this.chartLabels = ["Jan", "Feb", "Mar", "Apr", "May"];
