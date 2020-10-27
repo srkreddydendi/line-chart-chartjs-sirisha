@@ -22,7 +22,7 @@ export class AppComponent {
     //Chart.defaults.line.showLines = false;
     this.chartData = [
       {
-        data: [9, 1, 4, 2, 5],
+        data: [5, 10, 4, 2, 5],
         ///  label: "Anthracnose",
         fill: false,
         //bezierCurve: false,
@@ -58,7 +58,13 @@ export class AppComponent {
             gridLines: {
               // color: "rgba(0, 0,0 ,0 )"
               display: false
-            }
+            },
+            ticks: {
+                         beginAtZero: true,
+                         padding: 0,
+                        
+                     }
+
           }
         ]
       }
