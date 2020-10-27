@@ -22,7 +22,7 @@ export class AppComponent {
     //Chart.defaults.line.showLines = false;
     this.chartData = [
       {
-        data: [3, 1, 4, 2, 5],
+        data: [9, 1, 4, 2, 5],
         ///  label: "Anthracnose",
         fill: false,
         //bezierCurve: false,
@@ -40,6 +40,7 @@ export class AppComponent {
     this.chartOptions = {
       //bezierCurve: false,
       //lineTension: 0,
+    responsive:true,
       legend: {
         display: false
       },
